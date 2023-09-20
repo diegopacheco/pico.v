@@ -17,7 +17,7 @@ import syou.picohttpparser as hp
 #include "src/picoev.h"
 
 const (
-	MAX_FDS = 1024
+	MAX_FDS = 65000
 	TIMEOUT_SECS = 8
 	MAX_TIMEOUT = 10
 	MAX_READ = 4096
